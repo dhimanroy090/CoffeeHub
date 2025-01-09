@@ -12,7 +12,7 @@ const ScoialPages = () => {
         <div className="my-32">
             <p className="text-center">Follow Us Now</p>
             <h2 className="text-center text-3xl font-semibold text-[#331A15] mb-20">Follow on Instagram</h2>
-            <div className='md:grid grid-cols-4 gap-6 w-[80%] mx-auto'>
+            <div className='md:grid grid-cols-4 gap-6 w-[80%] mx-auto space-y-3'>
                 <div className="w-full">
                     <img className="w-full rounded-2xl" src={img1} alt="socila images" />
                 </div>

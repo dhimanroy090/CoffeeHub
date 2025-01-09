@@ -22,7 +22,7 @@ const Banner = () => {
 
             {/* Second banner */}
             <div className="w-full bg-[#ECEAE3]">
-                <div className="w-[80%] mx-auto flex items-center gap-12 py-8">
+                <div className="md:grid grid-cols-4 w-[80%] mx-auto items-center gap-12 py-8">
                     <div className="w-full mx-auto ">
                         <img className="my-3 w-[70px]" src={icon1} alt="" />
                         <h2 className="text-3xl text-bold mb-3">Awesome Aroma</h2>

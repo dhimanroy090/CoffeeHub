@@ -7,7 +7,7 @@ import { GrMail } from "react-icons/gr";
 const Footer = () => {
     return (
         <div className="foot_bg">
-            <div className="  w-[70%] flex mx-auto pt-16 pb-3">
+            <div className="md:grid grid-cols-2  w-[70%]  mx-auto pt-16 pb-3">
 
                 <div className="w-full">
                     <img className="w-[75px] h-[90px]" src={logo} alt="" />
@@ -37,7 +37,7 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <div className="w-full">
+                <div className="w-full py-5">
                     <h2 className="text-2xl text-center">Connect With Us</h2>
                     <div className="my-12 mx-auto">
                     <input type="text" placeholder="Name" className="input input-bordered input-md w-full max-w-xs my-3" />

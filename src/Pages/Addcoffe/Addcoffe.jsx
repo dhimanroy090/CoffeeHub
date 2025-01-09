@@ -163,7 +163,7 @@ const Addcoffee = () => {
         </div>
 
         <input
-          className="btn btn-secondary w-full my-5"
+          className="btn bg-[#E3B577] text-white w-full my-5"
           type="submit"
           value="Add coffee"
         />
